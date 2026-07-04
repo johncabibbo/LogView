@@ -1,0 +1,52 @@
+{
+  "_metadata": {
+    "project": "logView",
+    "version": "1.0",
+    "lastUpdated": "2026-03-11",
+    "description": "Log Viewer configuration - list of log files to monitor"
+  },
+
+  "logFiles": [
+    {
+      "name": "Claude Commands",
+      "path": "~/Documents/log/claudeCommands.log"
+    },
+    {
+      "name": "FreeSpace",
+      "path": "~//Documents/log/freeSpace.log"
+    },
+
+    {
+      "name": "AWS_S3_ArchiveWizard",
+      "path": "~/Documents/log/AWS_S3_ArchiveWizard.log"
+    },
+    {
+      "name": "Backup42",
+      "path": "~/Documents/log/backup42.log"
+    },
+    {
+      "name": "Backup",
+      "path": "~/Documents/log/backup.log"
+    },
+    {
+      "name": "Backup MySQL",
+      "path": "~/Documents/log/backupMySQL.log"
+    },
+    {
+      "name": "Git Push All",
+      "path": "~/Documents/log/gitPushAll.log"
+    },
+    {
+      "name": "Zip Sub-Folders",
+      "path": "~/Documents/log/zipSubFolders.csv"
+    },
+    {
+      "name": "SyncDocs",
+      "path": "~/Documents/log/syncDocs.log"
+    }
+  ],
+
+  "viewer": {
+    "followOnOpen": true
+  }
+}
